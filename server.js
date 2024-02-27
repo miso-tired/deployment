@@ -4,7 +4,7 @@ require('dotenv').config()
 const PORT = process.env.PORT
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Me when I deploy a project.')
 })
 
 app.listen(PORT, () => {
